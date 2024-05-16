@@ -9,7 +9,7 @@ const useCounter = (initialValue = 10) => {
         setCounter(counter + value)
     }
     const decrement = (value = 1) => {
-        counter > 0 && setCounter(counter - value);
+        counter > 1 && setCounter(counter - value);
     }
     const reset = () => {
         setCounter(initialValue)
